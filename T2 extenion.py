@@ -9,4 +9,4 @@ elif Fext[-1]=="cpp":
     Fext[-1]="C++"
 elif Fext[-1]=="c":
     Fext[-1]="C"
-print(" Extention of file is: "+ repr(Fext[-1]));
+print(" Extention of file is: ",(Fext[-1]));
