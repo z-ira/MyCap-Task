@@ -7,14 +7,14 @@ Original file is located at
     https://colab.research.google.com/drive/1pgjnmqpnheOSKHLCXBxNNPiqSagg-Sv1
 """
 
-test_str = "miississippi"
+test_str = "mississippi"
 res = {}
 
 for keys in test_str:
   res[keys] = res.get(keys, 0) + 1
 
 def most_frequent(d):
-      sor=reversed(sorted(d.items(), key = lambda kv: kv[1])) #reverse order sortng
+      sor=reversed(sorted(d.items(), key = lambda kv: kv[1])) #reverse order sorting
       so_rted = dict(sor)
       print(so_rted)
 
