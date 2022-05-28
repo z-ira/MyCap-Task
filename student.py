@@ -12,7 +12,7 @@ if __name__=='__main__':
     student_num=1
     
     while(condition):
-        student_info=input("enter student info in format for stuent {}(name,age,Cno,email): ".format(student_num))
+        student_info=input("enter student info in format for stuent {}(name,age,Contact,email): ".format(student_num))
        
         #split
         stud_info_list= student_info.split(' ')
